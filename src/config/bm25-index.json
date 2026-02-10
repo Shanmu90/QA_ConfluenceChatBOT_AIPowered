@@ -1,0 +1,37 @@
+{
+  "mappings": {
+    "dynamic": false,
+    "fields": {
+      "id": {
+        "type": "string"
+      },
+      "title": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "module": {
+        "type": "string"
+      },
+      "steps": {
+        "type": "string"
+      },
+      "expectedResults": {
+        "type": "string"
+      },
+      "page_title": {
+        "type": "string"
+      },
+      "labels": {
+        "type": "string"
+      },
+      "source_url": {
+        "type": "string"
+      },
+      "full_content_text": {
+        "type": "string"
+      }
+    }
+  }
+}

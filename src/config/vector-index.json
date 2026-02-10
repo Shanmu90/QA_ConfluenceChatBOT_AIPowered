@@ -1,0 +1,30 @@
+{
+  "fields": [
+    {
+      "type": "vector",
+      "path": "embeddings",
+      "numDimensions": 1024,
+      "similarity": "cosine"
+    },
+    {
+      "type": "filter",
+      "path": "page_id"
+    },
+    {
+      "type": "filter",
+      "path": "title"
+    },
+    {
+      "type": "filter",
+      "path": "labels"
+    },
+    {
+      "type": "filter",
+      "path": "source_url"
+    },
+    {
+      "type": "filter",
+      "path": "module"
+    }
+  ]
+}
